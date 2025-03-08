@@ -1,89 +1,22 @@
-<a href="https://prose-ui-docs-starter.vercel.app" >
-  <img alt="Prose UI social image" src="https://repository-images.githubusercontent.com/897893154/12074360-f0b7-47f3-b1ec-10ef71fdbf0c" />
-</a>
+# Chào mừng bạn đến với LadiFlow
 
-## Prose UI Docs Starter
+LadiFlow là nền tảng tương tác khách hàng dựa trên hệ thống phân luồng tự động theo 1 kịch bản đã được set up vào các thời điểm được định sẵn. Doanh nghiệp hoàn toàn có thể tương tác với khách hàng trên các nền tảng Facebook, Zalo, LadiChat, Email, SMS....
 
-This is a documentation starter template with [Next.js](https://nextjs.org) and [Prose UI](https://prose-ui.com).
+Bạn có thể tạo ra chiến dịch marketing tự động đa kênh trên LadiFlow. LadiFlow có tất cả các tính năng bạn tìm kiếm ở một công cụ marketing automation.
 
-MDX content for this template can be visually edited using [Dhub's WYSIWYG editor](https://dhub.dev).
+<figure><img src=".gitbook/assets/LadiFlow overview.jpg" alt=""><figcaption><p>LadiFlow feature mapping</p></figcaption></figure>
 
-[Preview template](https://prose-ui-docs-starter.vercel.app)
+Với LadiFlow bạn có thể:
 
-## Tech stack
+* Quản lý, theo dõi khách hàng.
+* Quản lý phân khúc khách hàng (Segment).
+* Thiết kế các kịch bản trả lời tự động (Flow).
+* Thiết kế và gửi các chuỗi thông điệp tự động (Sequence).
+* Gửi thông điệp tới 1 tập khách hàng (Campaign).
+* Hệ thống báo cáo tổng quan, chi tiết.
+*   Tích hợp với hơn 20+ nền tảng khác.\
 
-[Next.js 15](https://nextjs.org)\
-The backbone of the site. Pre-renders pages at build time for fast production performance.
 
-[Prose UI](https://prose-ui.com)\
-Provides components and styles for building clean, MDX-powered documentation.
+    <figure><img src=".gitbook/assets/tong quan ladiflow.png" alt=""><figcaption></figcaption></figure>
 
-[TailwindCSS](https://tailwindcss.com)\
-Facilitates flexible and efficient styling.
-
-[Shadcn UI](https://ui.shadcn.com)\
-Includes familiar, shadcn-inspired components.
-
-[Content Collections](https://www.content-collections.dev)\
-Renders MDX files with `mdx-bundler` and helps manage frontmatter.
-
-[MDX v3](https://mdxjs.com)\
-Combines Markdown and JSX for interactive, component-based content.
-
-[Radix](https://mdxjs.com)\
-Provides accessible components used for key elements in this template.
-
----
-
-## Key features
-
-**WYSIWIG editor**\
-Edit your Prose UI MDX files with [Dhub's](https://dhub.dev) WYSIWYG editor.
-
-**Dark mode**\
-Light and dark modes powered by [next/themes](https://github.com/pacocoursey/next-themes).
-
-**Content folder**\
-Content (MDX files) is separated into a dedicated content folder, making it much easier to manage than scattered `page.mdx` files.
-
-**Table of contents**\
-A TOC component on the right helps navigate page content effortlessly.
-
-**Code highlighting**\
-[Shiki](https://shiki.style/)-powered server-side code highlighting (via Prose UI).
-
-**Hierarchical sidenav**\
-Organize your navigation into categories, folders, and files.
-
-**Customizable theme**\
-Customize the look and feel using pre-defined [CSS variables](https://prose-ui.com/docs/styling).
-
-**SEO-friendly**\
-Pre-generated pages ensure fast performance and allow search engines to easily index fully-rendered content.
-
-**Blazing fast**\
-Next.js performance optimizations make the site extremely fast with virtually instant page navigation.
-
-**Search**&#x20;\
-Coming soon
-
-**API reference docs**\
-Comming soon
-
-# Get started
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/thư viện mẫu (1).png" alt=""></td><td><strong>Thư viện kịch bản</strong></td><td>Cách sử dụng các kịch bản mẫu </td><td><a href="thu-vien-mau/kich-ban-theo-muc-tieu.md">kich-ban-theo-muc-tieu.md</a></td></tr><tr><td><img src=".gitbook/assets/flow item.png" alt=""></td><td> <strong>Tạo Flow</strong></td><td>Cách tạo, thiết lập kịch bản tự động </td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><img src=".gitbook/assets/new-ldicon-sequence.png" alt=""></td><td><strong>Tạo Sequence</strong></td><td>Cách tạo, thiết lập chuỗi thông điệp tự động</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><img src=".gitbook/assets/Group.png" alt=""></td><td><strong>Tạo Campaign</strong></td><td>Cách tạo và gửi tin nhắn broadcast</td><td><a href="broken-reference">Broken link</a></td></tr><tr><td><img src=".gitbook/assets/dashboard.png" alt="" data-size="line"></td><td><strong>Báo cáo Flow</strong></td><td>Xem báo cáo chi tiết Flow</td><td><a href="flows/bao-cao-flow.md">bao-cao-flow.md</a></td></tr><tr><td><img src=".gitbook/assets/dashboard.png" alt="" data-size="line"></td><td><strong>Báo cáo Campaign</strong></td><td>Xem báo cáo chi tiết Campaign</td><td><a href="campaigns/bao-cao-campaign.md">bao-cao-campaign.md</a></td></tr></tbody></table>
